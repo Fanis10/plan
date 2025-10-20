@@ -26,12 +26,12 @@ body {
 }
 @media screen and (max-width: 576px) {
   .plan {
-    min-height: 87.5em;
-    max-height: 87.5em;
+    min-height: 120em;
+    max-height: 120em;
   }
   .plan__img {
-    top: 3.813em;
-    left: -17.687em;
-    width: 148.688em;
+    top: 4.5em;
+    left: -47.5em;
+    width: 207em;
   }
 }
