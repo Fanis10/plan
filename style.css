@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.plan {
+  position: relative;
+  width: calc(100vw - (100vw - 100%));
+  min-height: 67.5em;
+  max-height: 67.5em;
+  background-image: url(images/plan.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: calc(100vw*(16 / 1920));
+  overflow: hidden;
+}
+.plan__img {
+  position: absolute;
+  top: 2.813em;
+  left: -0.8em;
+  width: 115.688em;
+}
+.plan__img svg {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 576px) {
+  .plan {
+    min-height: 87.5em;
+    max-height: 87.5em;
+  }
+  .plan__img {
+    top: 3.813em;
+    left: -17.687em;
+    width: 148.688em;
+  }
+}
